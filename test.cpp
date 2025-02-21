@@ -12,14 +12,10 @@ Feb 21, 2025
   cout.tie(0)
 
 int main() {
-  int n = 5;
-  int intDivide = n / 2;
-  std::cout << intDivide << std::endl;
-  float floatDivide = (float)n / 2.0;
+  std::string s = "LVIII";
+  for (int i = 0; i < s.length(); i++) {
+    std::cout << s[i] << "\n" << std::endl;
+  }
 
-  std::cout << floatDivide << std::endl;
-
-  std::vector<char> str = {'H', 'e', 'l', 'l', 'o'};
-  std::cout << str.size() << std::endl;
   return 0;
 }
