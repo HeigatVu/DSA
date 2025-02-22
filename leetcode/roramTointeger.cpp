@@ -12,6 +12,14 @@ Feb 22, 2025
 
 class Solution {
 public:
+  /*
+  Input: A string representing a Roman numeral
+  Output: The integer value of the Roman numeral
+  Constraints: 1 <= s.length <= 15,
+                s consists of uppercase Roman numerals and,
+                It is guaranteed to be a valid Roman numeral in range [1, 3999]
+  */
+
   // Reading Roman number from right to left
 
   // int romanToInt(std::string s) {

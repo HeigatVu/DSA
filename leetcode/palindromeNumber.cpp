@@ -12,6 +12,12 @@ Feb 21, 2025
 
 class Solution {
 public:
+  /*
+  Input: an integer representing the number to check if it is a palindrome.\
+  Ouput: true if the number is a palindrome, false otherwise.
+  Constraints: -2^31 <= x <= 2^31 - 1
+  */
+
   // Solution with using convert number to vector of char
 
   // std::vector<char> numToVectorChar(int num) {
@@ -49,10 +55,6 @@ public:
   // }
 
   // Solution without using convert number to vector of char
-  /*
-  This method bases on comapre reversion of the number with original number.
-  Because palindrome number is symmertrical number
-  */
   bool isPalindrome(int x) {
     if (x < 0) {
       return false;

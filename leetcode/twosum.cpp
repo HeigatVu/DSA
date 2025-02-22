@@ -13,6 +13,13 @@ By Duc
 
 class Solution {
 public:
+  /*
+  Input: An array of integers and a target integers
+  OUtput: A pair of indices of the two numbers that add up to the target
+  Constraints: 2 <= nums.length <= 10^4,
+            -10^9 <= nums[i] <= 10^9,
+            -10^9 <= target <= 10^9
+  */
   std::vector<int> twoSumNaive(std::vector<int> &nums, int target) {
     if (nums.size() < 2) {
       return {};

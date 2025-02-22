@@ -8,6 +8,12 @@ Feb 20, 2025
 #include <string>
 
 std::string checkSplitWatermelon(int weighed) {
+  /*
+  Input: an integer representing the weight of the watermelon (w).
+  Output: a string "YES" if the watermelon can be split into two heavier parts,
+  or "NO" otherwise.
+  Constraints: 1 <= w <= 100
+  */
   std::string result;
   if (weighed % 2 == 0 && weighed >= 4) {
     result = "YES";
