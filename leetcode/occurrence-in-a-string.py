@@ -15,11 +15,13 @@ Contrainst: 1 <= haystack.length, needle.length <= 10^4
 def strStr(haystack, needle):
     needle_length = len(needle)
 
-    for i in range(0, len(haystack) - len(needle), 1):
+    for i in range(0, len(haystack) - len(needle) + 1, 1):
+        print(i)
         if haystack[i : i + needle_length] == needle:
+            print(haystack[i : i + needle_length])
             return i
-        else:
-            return -1
+
+    return -1
 
 
 if __name__ == "__main__":
